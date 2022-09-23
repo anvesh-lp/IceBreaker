@@ -4,6 +4,11 @@ plugins {
 }
 
 android {
+
+    buildFeatures {
+        viewBinding = true
+    }
+
     namespace 'com.example.icebreaker'
     compileSdk 32
 
@@ -16,6 +21,8 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
+
 
     buildTypes {
         release {
