@@ -10,7 +10,7 @@ private const val TAG = "Ice breaker android fall 2022"
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding;
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
