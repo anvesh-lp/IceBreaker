@@ -1,9 +1,8 @@
 package com.example.icebreaker
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.inputmethod.InputBinding
+import androidx.appcompat.app.AppCompatActivity
 import com.example.icebreaker.databinding.ActivityMainBinding
 
 private const val TAG = "Ice breaker android fall 2022"
@@ -22,8 +21,8 @@ class MainActivity : AppCompatActivity() {
         }
         binding.submitbutton.setOnClickListener  {
             Log.d(TAG,"Question Button pressed")
+            val firstName = binding.firstname
+            Log.d(TAG,"First name is ${firstName.text}")
         }
-
-
     }
 }

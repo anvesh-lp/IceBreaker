@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1096109940819",
+    "project_id": "icebreaker-android-2022",
+    "storage_bucket": "icebreaker-android-2022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096109940819:android:953406a3ffb70dcee1a6a6",
+        "android_client_info": {
+          "package_name": "com.example.icebreaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096109940819-ugql6pockqv06oo8nb5pb2hajh6d2j87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACV9qu1AGHyC9tGIux1R8mMNKA-i9pYfs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096109940819-ugql6pockqv06oo8nb5pb2hajh6d2j87.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
